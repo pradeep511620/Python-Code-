@@ -42,9 +42,9 @@ def trustpilot_reviews(URL):
 
 
     connection = mysql.connector.connect(
-        host='development-uk.c5tedj3txtxy.eu-west-1.rds.amazonaws.com',
-        user='raptoradmin',
-        password='Raptorpwa2020', database='trustpilot')
+        host='',
+        user='',
+        password='', database='trustpilot')
 
 
     if connection.is_connected():
