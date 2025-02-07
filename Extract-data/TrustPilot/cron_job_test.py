@@ -45,9 +45,9 @@ def open_db_connection():
     """Opens a MySQL database connection and returns the connection and cursor."""
     try:
         connection = mysql.connector.connect(
-            host='development-uk.c5tedj3txtxy.eu-west-1.rds.amazonaws.com',
-            user='raptoradmin',
-            password='Raptorpwa2020',
+            host='dnaws.com',
+            user='',
+            password='',
             database='trustpilot'
         )
         if connection.is_connected():
